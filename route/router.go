@@ -1,11 +1,10 @@
 package route
 
 import (
-	"awesomeProject/second/controller"
-	"awesomeProject/second/judgmenterr"
+	"awesomeProject/TestTwo/internet/ctrl"
 	"github.com/gin-gonic/gin"
 )
 
 func ContNum( r *gin.Engine) {
-	r.POST("/ping", judgmenterr.HandlerErr(controller.ContController))
+	r.POST("/ping", ctrl.ContController)
 }
