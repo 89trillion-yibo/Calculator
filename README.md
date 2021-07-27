@@ -6,31 +6,36 @@
 
 ### 2.目录结构
 
-.
+### 2.目录结构
+
+```
+├── Conversion_test.go
 ├── README.md
 ├── app
-│   └── startRun.go
-│   └── main.go
+│   ├── main.go
+│   └── startRun.go
+├── contNumber.py
 ├── go.mod
 ├── go.sum
+├── internet
+│   ├── ctrl
+│   │   └── calController.go
+│   ├── handler
+│   │   └── Conversion.go
+│   └── judgmenterr
+│       └── errHandler.go
+├── report.html
+├── route
+│   └── router.go
+└── util
+    ├── Verification.go
+    └── stackUse.go
 
-├── util
-│   └── stackUse.go
+```
 
-├── internal
-│   ├── ctrl
-│   │   └── calController.go
-│   ├── handler
-│   │   ├── conversion.go
-│   │   └── verification.go
-│   ├── judgmenterr
-│   │   ├── errStru.go
-│   │   └── errHandler.go
-│   ├── router
-│   │   └── router.go
-├── locustReport.html
-├── contNumber.py
-└── 程序流程图.png
+
+
+### 
 
 
 
